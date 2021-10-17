@@ -18,13 +18,6 @@ img {
   justify-self: center;
 }
 
-p {
-  font-weight: 500;
-  text-transform: none;
-  color: #fff;
-  font-size: 0.9rem;
-}
-
 ul {
   list-style: none;
   padding: 0;
@@ -34,15 +27,13 @@ ul {
   background: #3e2bc5;
   border: 1px solid #3e2bc5;
   border-radius: 25px;
-  box-sizing: border-box;
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 1.5rem;
   margin: 24px 0;
   padding: 11px 20px;
-  text-align: center;
   transition: background 0.5s ease-in-out;
 }
 
@@ -69,9 +60,7 @@ a {
   text-decoration: none;
 }
 
-p,
 a {
-  font-size: 0.9rem;
 }
 
 .section-row {
@@ -83,34 +72,62 @@ a {
 .hr {
   border-top: 1px solid #b8b7b5;
   width: 1200px;
-  max-width: 92vw;
+  max-width: 90vw;
   margin: 0 auto;
 }
 
 .section-container {
   width: 1200px;
-  max-width: 92vw;
+  max-width: 90vw;
   padding-left: 0;
   padding-right: 0;
   margin: 0 auto;
 }
 
+h1 {
+  font-weight: 700;
+  margin: 0px 0px 0.5em;
+  font-size: 50px;
+  line-height: 3.5rem;
+}
+
+h2 {
+  font-weight: 700;
+  margin: 24px 0;
+  font-size: 30px;
+  line-height: 2.5rem;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  margin: 0.5rem 0px 0px;
+  line-height: 1.7rem;
+}
+
 @media (max-width: 992px) {
   h1 {
-    font-size: 11vw;
+    font-size: 30px;
+    line-height: 2.5rem;
   }
 
   h2 {
-    font-size: 7vw;
-  }
-
-  h3 {
-    font-size: 6vw;
+    font-size: 26px;
   }
 
   p,
   a {
-    font-size: 0.8rem;
+    font-size: 14px;
+  }
+
+  .section-column {
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+  .section-btn {
+    font-size: 14px;
   }
 }
 
@@ -124,12 +141,8 @@ a {
 .testimonial h2,
 .partner h2,
 .work h2,
-.work-info h1 {
-  font-weight: 700;
-  margin: 30px 0;
+.work-info h2 {
   color: #3e2bc5;
-  font-size: 1.8rem;
-  line-height: 2.5rem;
   text-align: center;
 }
 
@@ -308,7 +321,7 @@ a {
 }
 
 .hero-row {
-  grid-template-columns: 1.5fr 2fr;
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
 
@@ -323,18 +336,11 @@ a {
 }
 
 .hero-section h1 {
-  font-weight: 700;
-  margin: 0px 0px 0.5em;
-  font-size: 45px;
-  line-height: 3.5rem;
   text-align: left;
   color: #3e2bc5;
 }
 
 .hero-section p {
-  margin: 0.5rem 0px 0px;
-  font-size: 1rem;
-  line-height: 1.5rem;
   text-align: left;
   color: #7a7a7a;
 }
@@ -400,12 +406,12 @@ a {
 }
 
 .testimonial-text {
-  font-size: 0.9rem;
+  font-size: 18px;
   line-height: 1.7rem;
 }
 
 .testimonial-detail {
-  font-size: 0.8rem;
+  font-size: 14px;
   font-weight: 600;
   letter-spacing: 1.2px;
   text-transform: uppercase;
@@ -415,6 +421,14 @@ a {
   .testimonial-row {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .testimonial-text {
+    font-size: 16px;
+  }
+
+  .testimonial-detail {
+    font-size: 12px;
   }
 }
 
@@ -443,13 +457,6 @@ a {
   flex-wrap: wrap;
 }
 
-@media (max-width: 768px) {
-  .partner h2 {
-    font-size: 1.25rem;
-    line-height: 1.5rem;
-  }
-}
-
 /* partner section */
 
 /* work section */
@@ -462,11 +469,7 @@ a {
 }
 
 .work p {
-  margin: 24px 0;
-  font-size: 1rem;
-  line-height: 1.5rem;
   text-align: left;
-  font-weight: 500;
   color: #7a7a7a;
 }
 
@@ -501,9 +504,6 @@ a {
 }
 
 .work-info p {
-  margin: 0 0 24px;
-  font-size: 1rem;
-  line-height: 1.5rem;
   text-align: center;
   color: #7a7a7a;
 }
@@ -520,16 +520,6 @@ a {
 
   .work-column {
     order: 2;
-  }
-
-  .work h2 {
-    font-size: 1.25rem;
-    line-height: 1.5rem;
-  }
-
-  .work p {
-    font-size: 0.9rem;
-    line-height: 1.4rem;
   }
 
   .work h2,
@@ -565,7 +555,7 @@ a {
   font-weight: 700;
   margin: 24px 0;
   color: #fff;
-  font-size: 1.7rem;
+  font-size: 30px;
   line-height: 2.8rem;
   text-align: center;
 }
@@ -595,11 +585,9 @@ a {
   .cta-img {
     display: none;
   }
-}
 
-@media (max-width: 768px) {
   .cta-title {
-    font-size: 1.25rem;
+    font-size: 26px;
   }
 }
 
@@ -639,7 +627,7 @@ a {
 }
 
 .footer li p {
-  margin-left: 12px;
+  margin: 0 0 0 12px;
 }
 
 .footer .section-row {
@@ -649,7 +637,7 @@ a {
 }
 
 .copy-right {
-  font-size: 0.9rem;
+  font-size: 16px;
   color: #7a7a7a;
 }
 
@@ -664,6 +652,7 @@ a {
 .footer li i {
   color: #3e2bc5;
   align-self: baseline;
+  margin-top: 5px;
 }
 
 .footer .title {
@@ -676,6 +665,7 @@ a {
 
 .footer a {
   transition: color 0.4s ease 0s;
+  font-size: 16px;
 }
 
 .footer a:hover {
@@ -723,6 +713,11 @@ a {
 @media (max-width: 992px) {
   .footer .section-row {
     grid-template-columns: 1fr;
+  }
+
+  .copy-right,
+  .footer a {
+    font-size: 14px;
   }
 
   .footer-column-1,
