@@ -17,7 +17,7 @@ headerEl.innerHTML = `
                 <div class="collapse navbar-collapse" id="main_nav">
                     <ul class="navbar-nav">
 
-                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
 
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Company </a>
@@ -46,7 +46,7 @@ headerEl.innerHTML = `
                             </ul>
                         </li>
 
-                        <li class="nav-item"><a href="" class="nav-link">Publications</a></li>
+                        <li class="nav-item"><a href="publication.html" class="nav-link">Publications</a></li>
 
                         <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
 
