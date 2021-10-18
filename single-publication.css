@@ -1,5 +1,23 @@
 @import "about.css";
 
+/* banner section */
+
+.banner-bg li span {
+  font-size: 16px;
+}
+
+@media (max-width: 992px) {
+  .banner-bg li span {
+    font-size: 14px;
+  }
+
+  .section-column {
+    padding: 0;
+  }
+}
+
+/* banner section */
+
 /* publication css */
 
 .blog-detail {
@@ -45,10 +63,25 @@
   height: 14px;
 }
 
-.blog-title {
+.publication h2 {
   font-size: 28px;
   margin-bottom: 10px;
   margin-top: 10px;
+  color: #202833;
+}
+
+.blog-dec p {
+  color: #7a7a7a;
+}
+
+.publication-column {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.blog-item img {
+  width: 100%;
+  max-height: 400px;
 }
 
 /* publication css */
