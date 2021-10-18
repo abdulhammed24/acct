@@ -3,12 +3,29 @@
 /* publication section */
 
 .publication-row {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.publication-column {
+  margin-bottom: 15px;
+  padding: 15px;
+  transition: background-color 0.5s ease-in-out;
+  cursor: default;
+}
+
+.publication-column:hover {
+  background-color: #f3f2fb;
+  border-radius: 10px;
+  box-shadow: 0 0.5rem 1rem #00000026;
 }
 
 .blog-detail {
   padding: 0;
   margin-top: 20px;
+}
+
+.blog-media img {
+  border-radius: 5px;
 }
 
 .blog-title {
@@ -84,4 +101,10 @@
 
 .read-more i {
   font-size: 12px;
+}
+
+@media (max-width: 992px) {
+  .section-column {
+    width: 100%;
+  }
 }
