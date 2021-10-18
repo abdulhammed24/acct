@@ -48,28 +48,6 @@ footerEl.innerHTML = `
                             <li><a href="#">Terms & Conditions</a></li>
                         </ul>
                     </div>
-
-                    <div class="inner-column">
-                        <h3 class="title">Contact Info</h3>
-                        <ul class="address-footer">
-                            <li>
-                                <i class="fas fa-search-location"></i>
-                                <p class="address">150-A Appolo aprtment, opp. Hopewell Junction, Allen
-                                    st
-                                    Road, <br> new york-405001.</p>
-                            </li>
-
-                            <li>
-                                <i class="fas fa-phone"></i>
-                                <p>+0 123-456-7890</p>
-                            </li>
-
-                            <li>
-                                <i class="fas fa-envelope-open"></i>
-                                <p>info@example.com</p>
-                            </li>
-                        </ul>
-                    </div>
                 </div>
 
 

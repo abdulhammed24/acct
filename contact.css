@@ -61,10 +61,6 @@
   .contact-row {
     grid-template-columns: repeat(2, 1fr);
   }
-
-  .section-column {
-    width: 100%;
-  }
 }
 
 @media (max-width: 768px) {
