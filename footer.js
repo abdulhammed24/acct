@@ -31,7 +31,7 @@ footerEl.innerHTML = `
                         <h3 class="title">Quick Link</h3>
                         <ul>
                             <li><a href="about.html">About Us</a></li>
-                            <li><a href="#">Services</a></li>
+                            <li><a onclick="window.location.href='about.html#service'">Services</a></li>
                             <li><a href="#">Tokens</a></li>
                             <li><a href="#">Team</a></li>
                             <li><a href="contact.html">Contact</a></li>
