@@ -1,0 +1,9 @@
+@import "single-publication.css";
+
+.publication {
+  padding: 70px 0;
+}
+
+a:not([href]):not([class]):hover {
+  color: #3e2bc5;
+}
