@@ -4,7 +4,7 @@ headerEl.innerHTML = `
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="header-container section-container">
                 <a class="navbar-brand" href="index.html">
-                    <img src="https://pkf-ng.com/content/images/logo.png" alt="" class="navbar-logo">
+                    <img src="header-img.png" alt="" class="navbar-logo">
                 </a>
 
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
@@ -22,10 +22,12 @@ headerEl.innerHTML = `
                         <li class="nav-item dropdown">
                             <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Services </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="service.html"> Accounting </a></li>
-                                <li><a class="dropdown-item" href="service.html"> Management Consultancy </a></li>
-                                <li><a class="dropdown-item" href="service.html"> Audit & Assurance </a></li>
-                                <li><a class="dropdown-item" href="service.html"> Business Advisory </a></li>
+                                <li><a class="dropdown-item" href="accounting.html"> Accounting </a></li>
+                                <li><a class="dropdown-item" href="audit.html"> Audit & Assurance </a></li>
+                                <li><a class="dropdown-item" href="management.html"> Management Consultancy </a></li>
+                                <li><a class="dropdown-item" href="business.html"> Business Advisory </a></li>
+                                <li><a class="dropdown-item" href="it.html"> IT Consulting Service </a></li>
+                                <li><a class="dropdown-item" href="tax.html"> Tax Compliance & Advisory </a></li>
                             </ul>
                         </li>
 
@@ -37,8 +39,6 @@ headerEl.innerHTML = `
                                 <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
                             </ul>
                         </li>
-
-                        <li class="nav-item"><a href="publication.html" class="nav-link">Publications</a></li>
 
                         <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
 

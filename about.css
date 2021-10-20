@@ -30,20 +30,6 @@ a {
   text-align: center;
 }
 
-.banner-bg ul li {
-  display: inline-block;
-}
-
-.banner-bg ul li a,
-.banner-bg ul li span {
-  margin: 0 10px;
-  transition: color 0.5s ease-in-out;
-}
-
-.banner-bg ul li a:hover {
-  color: #3e2bc5;
-}
-
 @media (max-width: 768px) {
   .banner-bg {
     padding: 100px 0 60px;
@@ -91,12 +77,12 @@ a {
 }
 
 .about-row {
-  grid-template-columns: 1.2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
 
 .mission-row {
-  grid-template-columns: 1fr 1.2fr;
+  grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
 
