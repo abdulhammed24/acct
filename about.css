@@ -180,11 +180,6 @@ a {
   text-align: center;
 }
 
-.team-content > img {
-  background-color: #3e2bc5;
-  border-radius: 10px;
-}
-
 .team-content-wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
