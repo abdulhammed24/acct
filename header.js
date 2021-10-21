@@ -31,15 +31,6 @@ headerEl.innerHTML = `
                             </ul>
                         </li>
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Sectors </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
-                                <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
-                                <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
-                            </ul>
-                        </li>
-
                         <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
 
 

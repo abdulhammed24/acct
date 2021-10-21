@@ -8,18 +8,11 @@
   background: linear-gradient(
       180deg,
       rgb(255 255 255 / 70%) 41.67%,
-      rgb(62 43 197) 100%
+      #2d2d2e 100%
     ),
     url(https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=876&q=80)
       no-repeat center center;
   background-size: cover;
-}
-
-.banner-title {
-  color: #ffffff;
-  background-color: #3e2bc5;
-  padding: 30px;
-  display: inline-block;
 }
 
 /* publication css */
