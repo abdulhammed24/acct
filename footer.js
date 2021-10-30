@@ -33,12 +33,11 @@ footerEl.innerHTML = `
                     <div class="inner-column">
                         <h3 class="title">Services</h3>
                         <ul>
-                            <li><a href="accounting.html">Accounting</a></li>
-                            <li><a href="audit.html">Audit & Assurance</a></li>
-                            <li><a href="management.html">Management Consultancy </a></li>
-                            <li><a href="business.html">Business Advisory</a></li>
-                            <li><a href="it.html"> IT Consulting Service </a></li>
-                            <li><a href="tax.html"> Tax Compliance & Advisory </a></li>
+                            <li><a href="accounting.html"> Accounting </a></li>
+                            <li><a href="trm.html"> Tax and Regulatory Matters </a></li>
+                            <li><a href="frm.html"> Fraud Risk Management </a></li>
+                            <li><a href="forensic.html"> Forensic Accounting/Audit </a></li>
+                            <li><a href="oia.html"> Outsourced Internal Audit</a></li>
                         </ul>
                     </div>
                 </div>
