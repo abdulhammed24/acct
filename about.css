@@ -108,7 +108,11 @@ a {
   margin-top: 50px;
 }
 
-.about-detail ul li::before {
+.about-detail ul p {
+  color: #7a7a7a;
+}
+
+.about-detail ul p::before {
   content: "•";
   color: #3e2bc5;
   font-weight: bold;
