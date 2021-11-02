@@ -458,7 +458,7 @@ p {
 
 .partner-logos {
   max-width: 100%;
-  gap: 60px;
+  gap: 30px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -468,8 +468,8 @@ p {
 }
 
 .partner-logos img {
-  width: 25%;
-  height: auto;
+  width: 45%;
+  height: 100px;
 }
 
 /* partner section */
