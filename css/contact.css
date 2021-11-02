@@ -17,13 +17,13 @@
 
 /* contact-info section */
 .contact-row {
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
   text-align: center;
 }
 
 .contact-column {
-  padding: 0 15px;
+  padding: 0 7px;
 }
 
 .contact svg {
@@ -36,10 +36,11 @@
 .contact-box {
   background-color: #f3f2fb;
   box-shadow: 0 0.5rem 1rem #00000026;
+  min-height: 320px;
 }
 
 .card-body {
-  padding: 30px;
+  padding: 15px;
 }
 
 .contact-icon {

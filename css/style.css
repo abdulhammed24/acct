@@ -467,6 +467,11 @@ p {
   flex-wrap: wrap;
 }
 
+.partner-logos img {
+  width: 25%;
+  height: auto;
+}
+
 /* partner section */
 
 /* work section */
@@ -506,7 +511,7 @@ p {
   justify-content: center;
   margin: 0px auto;
   max-width: 800px;
-  padding: 50px 30px;
+  padding: 30px;
 }
 
 .work-logo {
@@ -623,8 +628,6 @@ p {
 }
 
 .footer-logo {
-  /* max-width: 50px;
-  max-height: 50px; */
   margin-bottom: 30px;
 }
 
@@ -646,7 +649,7 @@ p {
 
 .footer .section-row {
   text-align: center;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.3fr 2fr;
   gap: 50px;
 }
 
@@ -689,7 +692,6 @@ p {
 }
 
 .social-icon {
-  margin-top: 30px;
   display: inline-flex;
 }
 

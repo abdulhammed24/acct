@@ -9,7 +9,6 @@ footerEl.innerHTML = `
                             alt="footer-logo" class="footer-logo">
                     </a>
                     <div class="footer-content">
-                        <p>John Gracewell Consulting is a member firm of the John Gracewell Consulting International Limited family of legally independent firms and does not accept any responsibility or liability for the actions or inactions of any individual member or correspondent firm or firms.</p>
                         <ul class="social-icon">
                             <li><a title="Facebook" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a title="Twitter" class="twitter"><i class="fab fa-twitter"></i></a></li>
