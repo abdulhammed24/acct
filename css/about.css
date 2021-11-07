@@ -100,11 +100,11 @@ a {
   gap: 50px;
 }
 
-.about-detail ul p {
+.about-column ul p {
   color: #7a7a7a;
 }
 
-.about-detail ul p::before {
+.about-column ul p::before {
   content: "•";
   color: #3e2bc5;
   font-weight: bold;
