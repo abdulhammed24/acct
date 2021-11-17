@@ -22,11 +22,11 @@ headerEl.innerHTML = `
                         <li class="nav-item dropdown">
                             <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Services </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="accounting.html"> Accounting </a></li>
-                                <li><a class="dropdown-item" href="trm.html"> Tax and Regulatory Matters </a></li>
-                                <li><a class="dropdown-item" href="frm.html"> Fraud Risk Management </a></li>
-                                <li><a class="dropdown-item" href="forensic.html"> Forensic Accounting/Audit </a></li>
-                                <li><a class="dropdown-item" href="oia.html"> Outsourced Internal Audit</a></li>
+                                <li><a class="dropdown-item" href="/accounting"> Accounting </a></li>
+                                <li><a class="dropdown-item" href="/trm"> Tax and Regulatory Matters </a></li>
+                                <li><a class="dropdown-item" href="/frm"> Fraud Risk Management </a></li>
+                                <li><a class="dropdown-item" href="/forensic"> Forensic Accounting/Audit </a></li>
+                                <li><a class="dropdown-item" href="/oia"> Outsourced Internal Audit</a></li>
                             </ul>
                         </li>
 

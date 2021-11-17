@@ -24,19 +24,19 @@ footerEl.innerHTML = `
                     <div class="inner-column">
                         <h3 class="title">Quick Link</h3>
                         <ul>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="/about">About Us</a></li>
+                            <li><a href="/contact">Contact</a></li>
                         </ul>
                     </div>
 
                     <div class="inner-column">
                         <h3 class="title">Services</h3>
                         <ul>
-                            <li><a href="accounting.html"> Accounting </a></li>
-                            <li><a href="trm.html"> Tax and Regulatory Matters </a></li>
-                            <li><a href="frm.html"> Fraud Risk Management </a></li>
-                            <li><a href="forensic.html"> Forensic Accounting/Audit </a></li>
-                            <li><a href="oia.html"> Outsourced Internal Audit</a></li>
+                            <li><a href="/accounting"> Accounting </a></li>
+                            <li><a href="/trm"> Tax and Regulatory Matters </a></li>
+                            <li><a href="/frm"> Fraud Risk Management </a></li>
+                            <li><a href="/forensicl"> Forensic Accounting/Audit </a></li>
+                            <li><a href="/oia"> Outsourced Internal Audit</a></li>
                         </ul>
                     </div>
                 </div>
