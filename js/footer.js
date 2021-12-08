@@ -35,7 +35,7 @@ footerEl.innerHTML = `
                             <li><a href="/accounting"> Accounting </a></li>
                             <li><a href="/trm"> Tax and Regulatory Matters </a></li>
                             <li><a href="/frm"> Fraud Risk Management </a></li>
-                            <li><a href="/forensicl"> Forensic Accounting/Audit </a></li>
+                            <li><a href="/forensic"> Forensic Accounting/Audit </a></li>
                             <li><a href="/oia"> Outsourced Internal Audit</a></li>
                         </ul>
                     </div>
