@@ -10,7 +10,7 @@ footerEl.innerHTML = `
                     </a>
                     <div class="footer-content">
                         <ul class="social-icon">
-                            <li><a href="https://www.instagram.com/johngracewell/" title="Facebook" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.facebook.com/johngracewell/" title="Facebook" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="https://www.instagram.com/johngracewell/" title="Twitter" class="instagram"><i class="fab fa-instagram"></i></a></li>
                             <li><a href="https://www.instagram.com/johngracewell/" title="Linkedin" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
                             </li>
